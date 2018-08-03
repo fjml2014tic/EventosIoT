@@ -80,7 +80,7 @@ c. Despues de lanzar el comando anterior nos devolvera una url que copiamos y pe
 d. Lanzamos la demo (si todo lo anterior ha ido bien):
 
 ~~~
-(env) $  google-assistant-demo
+(env) $  googlesamples-assistant-hotword --project_id my-dev-project --device_model_id my-model
 ~~~
 
 
