@@ -59,7 +59,7 @@ Instalamos la librería del google assistant
 3.2. Autorizamos a nuestra Raspberry Pi con Google Assistant SDK
 a. Instalamos la herramienta de autorización dentro de nuestro entorno virtual (env):
 ~~~
-(env) $ python -m pip install --upgrade google-auth-oauthlib[tool]
+(env) $ sudo python -m pip install --upgrade google-auth-oauthlib[tool]
 ~~~
 
 b. Lanzamos la herramienta y le pasamos el fichero json que hemos guardado en la Raspberry Pi:
