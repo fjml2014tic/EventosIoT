@@ -46,10 +46,12 @@ env/bin/python -m pip install --upgrade pip setuptools
 source env/bin/activate
 ~~~
 
-Instalamos la librería del google assistant
+Instalamos el sdk del google assistant
 
 ~~~
-(env) $ python -m pip install --upgrade google-assistant-library
+(env) $ sudo apt-get install portaudio19-dev libffi-dev libssl-dev libmpg123-dev  
+(env) $ sudo python -m pip install --upgrade google-assistant-library  
+(env) $ sudo python -m pip install --upgrade google-assistant-sdk[samples]
 ~~~
 
 3. Probamos el ejemplo que nos proporciona google en la documentación (Dentro de la Raspberry Pi y dentro del entorno. Si no aparece (env), debes lanzar el comando "source env/bin/activate" para entra dentro del entorno)
