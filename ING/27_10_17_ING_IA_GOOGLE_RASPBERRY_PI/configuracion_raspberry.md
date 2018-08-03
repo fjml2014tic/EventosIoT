@@ -51,7 +51,22 @@ speaker-test -t wav
 ~~~
 
 
-2. Graba sonido
+2. Graba sonido  
+
+Configuramos el microfono:  
+1.Instalar pulseaudio:  
+``` 
+sudo apt-get install pulseaudio  
+
+```
+
+2.Reiniciamos la configuración:  
+
+```  
+
+sudo /etc/init.d/alsa-utils reset  
+
+```
 
 Lanzamos el siguiente comando que graba 5 segundos
 
